@@ -132,7 +132,7 @@ body{
 }
 	
 #works p{
-	text-align: justify;
+	text-align: left;
 }
 
 #works img{
@@ -185,7 +185,7 @@ body{
 	border-color: #F1F399;
 	font-size: 16px;
 	text-align: center;
-	width: 200px;
+    width: 70%;
 }
 
 
@@ -280,4 +280,64 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
+}
+
+#clients{
+	text-align: center;
+}
+
+#botones{
+	padding: 5% 0;
+}
+.botones{
+	background-color: transparent;
+	border-color: #000;
+	border-radius: 0%;
+	width: 100%;
+	margin-bottom: 10%;
+	margin-left: 0%;
+	
+}
+
+#formulario{
+	padding: 3% 0;
+	background-color: #F1F399;
+	
+	}
+
+.formss{
+	background-color: transparent;
+	border-color: #000;
+	border-radius: 0%;
+	width: 30%;
+	margin-left: 30%;
+	
+}
+
+#formulario h2{
+	font-size: 30px;
+
+}
+
+#formulario p{
+	font-size: 14px;
+}
+
+.join{
+	padding-left: 5%;
+}
+
+footer{
+	padding: 3% 0;
+	text-align: center;
+}
+
+footer .fab{
+	width: 70px;
+	height: 45px;
+	line-height: 40px;
+	text-align: center;
+	color:#272727;
+	font-size: 25px;
+	
 }
