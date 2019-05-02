@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body{
+	color: #000;
+	background-color: #fff;
+	font-family: Lato;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky {
+	background-color: #fff !important;
+}
+
+.header-area.sticky .nav-link {
+	color: #2c3142;
+	
+}
+
+.header-area.sticky .active .nav-link{
+	color:#2c3142;
+}
+
+
+.header-area.sticky .nav-link:hover::after {
+	background-color: #2c3142;
+}
+
+
+.header-area.sticky .nav-link:hover{
+	color:#2c3142;
+}
+
+.header-area.sticky .active .nav-link:hover{
+	color:#2c3142;
+}
+
+.header-area.sticky .navbar-brand .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+
+.btn-app{
+	background-color: #F1F399;
+	color: #000 !important;
+	border-radius: 0px;
+	font-weight:100;
+	border-color: #F1F399;
+}
+
+#discover{
+	padding-top: 10%;
+	postion: relative;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	background-image: url(../img/cover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+}
+
+
+#discover h1{
+	font-size: 60px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+}
+
+#discover h3{
+	font-size: 30px;
+}
+
+#discover h4{
+	font-size: 20px;
+}
+
+#discover .btn-light{
+	background-color: #F1F399;
+	color: #000 !important;
+	border-radius: 0px;
+	font-weight: 300;
+	font-size: 20px;
+	border-color: #F1F399;
+	width: 300px;
+}
+
+#condition{
+	text-align: center;
+	padding-top: 1%;
+	border-bottom: 1px solid #DDD;
+}
+
+.border{
+	border-bottom: 1px solid #DDD;
+}
+
+#discover h1{
+	padding-bottom: 2%;
+}
+
+.rectangle{
+	width: 300px;
+	height:60px;
+	background-color:#EFF0A4;
+	border-radius: 0%;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	z-index: 1;
+	}
+	
+#works h2{
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#works{
+	padding: 5% 0;
+	text-align: center;
+}
+	
+#works p{
+	text-align: justify;
+}
+
+#works img{
+	padding-bottom: 10%;
+}
+.title{
+	font-weight:600;
+	padding-bottom: 2%;
+}
+
+.title span{
+	border-bottom: 4px solid #EFF0A4;
+	
+}
+
+.discover span{
+	display:block;}
+
+#hello{
+	text-align: center;
+	padding: 5% 0;
+}
+
+.captions span{
+	color: #000;
+	border-bottom: 4px solid #EFF0A4;
+	font-weight: 600;
+	
+	
+	
+}
+
+
